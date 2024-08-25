@@ -1,11 +1,12 @@
-// import { BasicLandingPage } from "./lib/landing-pages/basic-landing-page.jsx";
-import { BasicLandingPage } from "../dist/simple-react-dasiy-landing-page.js";
+import { BasicLandingPage } from "./lib/landing-pages/basic-landing-page.jsx";
+import { CoolCorpIcon } from "./cool-corp-logo.jsx";
+// import { BasicLandingPage } from "./lib/landing-pages/simple-react-dasiy-landing-page.js";
 
 export default function App() {
   return (
     <BasicLandingPage
       title={"DaisyCorp"}
-      titleIcon={TitleIcon}
+      titleIcon={CoolCorpIcon}
       landingHeroTitle={"YOU MADE IT!"}
       landingHeroContent={
         "Yo lets get this party started. We making some crazy stuff you gotta try"
@@ -13,25 +14,13 @@ export default function App() {
       landingHeroCallToActionCallback={coolAlert}
       landingHeroCallToActionText="Become Cool"
       landingHeroImageUrl="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-    />
-  );
-}
-
-function TitleIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      className="inline-block h-5 w-5 stroke-current"
+      footerTitleContent="Making people cool since you were born"
+      twitterURL="https://x.com/knowyourmeme?lang=en"
+      youTubeURL="https://www.youtube.com/user/vsauce"
+      faceBookURL="https://en.wikipedia.org/wiki/Splendid_fairywren"
     >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-      ></path>
-    </svg>
+      <CoolCorpIcon />
+    </BasicLandingPage>
   );
 }
 
