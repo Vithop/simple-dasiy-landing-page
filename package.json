@@ -1,7 +1,7 @@
 {
   "name": "@vthrn/simple-react-dasiy-landing-page",
   "license": "GPL-3.0-or-later",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "type": "module",
   "exports": "./dist/simple-react-dasiy-landing-page.js",
   "scripts": {
