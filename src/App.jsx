@@ -1,4 +1,6 @@
-import { BasicLandingPage } from "./lib/landing-pages/basic-landing-page.jsx";
+// import { BasicLandingPage } from "./lib/landing-pages/basic-landing-page.jsx";
+import { BasicLandingPage } from "../dist/simple-react-dasiy-landing-page.js";
+
 export default function App() {
   return (
     <BasicLandingPage

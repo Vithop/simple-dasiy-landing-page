@@ -1,9 +1,9 @@
 {
-  "name": "simple-react-dasiy-landing-page",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@vthrn/simple-react-dasiy-landing-page",
+  "license": "GPL-3.0-or-later",
+  "version": "0.1.0",
   "type": "module",
-  "exports":"./lib/index.js",
+  "exports": "./dist/simple-react-dasiy-landing-page.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
