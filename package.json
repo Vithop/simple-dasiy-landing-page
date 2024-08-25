@@ -1,7 +1,7 @@
 {
   "name": "@vthrn/simple-react-dasiy-landing-page",
   "license": "GPL-3.0-or-later",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "exports": "./dist/simple-react-dasiy-landing-page.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
     "eslint": "^9.9.0",
