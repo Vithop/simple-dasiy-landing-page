@@ -1,5 +1,8 @@
 {
   "name": "@vthrn/simple-react-dasiy-landing-page",
   "version": "0.1.0",
-  "exports": "./dist/simple-react-dasiy-landing-page.js"
+  "exports": "./dist/simple-react-dasiy-landing-page.js",
+  "publish": {
+    "exclude": ["!dist"]
+  }
 }

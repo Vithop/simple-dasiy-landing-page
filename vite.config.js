@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import { resolve, dirname } from "path";
+import { resolve, dirname } from "node:path";
 
 import react from "@vitejs/plugin-react";
 
